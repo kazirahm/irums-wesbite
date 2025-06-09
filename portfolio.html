@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">About Me</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about-more.html">More About Me</a>
+    <a href="ux-philosophy.html">UX Philosophy</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="container">
+    <h1>Portfolio</h1>
+    <p>Explore my work below. Use the dropdowns to see projects in each category.</p>
+    <div class="dropdown">
+      <button onclick="toggleDropdown('interviews')">User Interviews</button>
+      <div id="interviews" class="dropdown-content">
+        <ul>
+          <li>Interview Study A</li>
+          <li>Interview Study B</li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="toggleDropdown('usability')">Usability Testing</button>
+      <div id="usability" class="dropdown-content">
+        <ul>
+          <li>Usability Test A</li>
+          <li>Usability Test B</li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button onclick="toggleDropdown('surveys')">Surveys</button>
+      <div id="surveys" class="dropdown-content">
+        <ul>
+          <li>Survey Project A</li>
+          <li>Survey Project B</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
